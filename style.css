@@ -1,0 +1,28 @@
+.nav1{
+    background-color: black;
+}
+.nav-link{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight:100;
+    color: white;
+}
+
+a:hover.nav-link{
+    color:green;
+}
+
+.collapse{
+flex-grow: 0;
+}
+.collapse li{
+    padding-left:20px;
+}
+.con{
+    padding-top:200px ;
+    padding-bottom: 200px;
+    color: green;}
+.navbar-brand img{
+width: 60px;
+height: 60px;
+}
