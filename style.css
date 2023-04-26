@@ -1,5 +1,8 @@
-.nav1{
-    background-color: black;
+/* .nav1{
+    background-color: black; */
+/* } */
+.background{
+    background-image: url(/home/traningbatchmarch2023/Portfolio/bkg.jpg);
 }
 .nav-link{
     font-family: 'Dancing Script', cursive;
@@ -7,6 +10,10 @@
     font-weight:100;
     color: white;
 }
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+    }
 
 a:hover.nav-link{
     color:green;
@@ -19,10 +26,17 @@ flex-grow: 0;
     padding-left:20px;
 }
 .con{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
     padding-top:200px ;
     padding-bottom: 200px;
-    color: green;}
-.navbar-brand img{
-width: 60px;
-height: 60px;
+    color: whitesmoke;
+    height: 600px;
+    
 }
+.con h1{
+    font-size: 3rem;
+}
+
+
