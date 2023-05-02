@@ -1,6 +1,7 @@
 body{
 font-family: 'Poppins', sans-serif;
 }
+
 .nav1{
     background-color: #1b262c;
     /* background-image: url(/home/traningbatchmarch2023/Portfolio/bkg.jpg); */
@@ -50,6 +51,7 @@ flex-grow: 0;
     height: 100vh;
     color: white;
     background-color: #288990;
+    width: 100%;
     /* padding-top:20px ; */
 }
 .con h1{
@@ -90,11 +92,17 @@ flex-grow: 0;
     color: orange;
 }
 .con2{
-    /* background-color: orange; */
+    font-family: 'Dancing Script', cursive;
+    background-color: #c0c6c9;
     display: flex;
     justify-content: center;
     align-items: center;   
     height: 100vh;
+}
+.con2 h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-bottom: 100px;
 }
 
 
@@ -108,10 +116,11 @@ flex-grow: 0;
 
 
 .education{
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: justify;
     /* flex-direction: column; */
   
 }
@@ -120,23 +129,29 @@ flex-grow: 0;
 } */
 .text1{
     background-color:#288990;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    /* padding-top: 10px; */
     color: white;
     height:250px;
+    border-radius: 40px;
+    padding:20px;
 }
 .text2{
-    background-color: #1b262c;
+    background-color: #288990;
     color: white;
     height:250px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    border-radius: 40px;
+    padding:20px;
 }
 .text3{
     background-color:#288990;
     /* border: 1px solid rgb(63, 61, 61); */
     color: white;
     height:250px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    border-radius: 40px;
+    padding:20px;
 }
 .firstimg img{
     border-radius: 50%;
@@ -152,6 +167,86 @@ flex-grow: 0;
     width: 300px;
     
 }
+/* .project{
+    height: 100vh;
+} */
+.pro{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    height: 100vh;
+}
+.pro img{
+    width: 100%;
+    height: 50%;
+}
+.pro h4{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #288990;
+    padding-bottom: 10px;
+}
+.pro p{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+}
+.pro span{
+    color: orange;
+    font-size: 24px;
+    font-weight: 700;
+}
+.pro1{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    height: 100vh;
+}
 
-
+.pro1 img{
+    width: 100%;
+    height: 50%;
+}
+.pro1 h4{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #288990;
+    padding-bottom: 10px;
+}
+.pro1 p{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+}
+.pro1 span{
+    color: orange;
+    font-size: 24px;
+    font-weight: 700;
+}
+.con3{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    background-color:  #c0c6c9;
+    height: 50vh;
+    padding-top: 50px;
+}
+.con3 a{
+    padding-right: 10px;
+}
+.work1 h4{
+   
+    font-size: 2.3rem;
+    font-weight: 500;
+    /* color: #288990; */
+    /* padding-bottom: 10px; */
+}
+.work1 p{
+    font-size: 18px;
+}
 
