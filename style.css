@@ -1,252 +1,273 @@
-body{
-font-family: 'Poppins', sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
 }
-
 .nav1{
     background-color: #1b262c;
-    /* background-image: url(/home/traningbatchmarch2023/Portfolio/bkg.jpg); */
-
- }
- .navbar a:hover::before {
-
-     content: '';
-     display: block;
-     position: absolute;
-     width: 100%;
-     height: 2px;
-     background-color:rgb(53, 140, 183);
-     bottom: -3px;
-     left: 0;
- }
-/* .background{
-    background-image: url(/home/traningbatchmarch2023/Portfolio/bkg.jpg);
-} */
-.nav-link{
-    font-size: 20px;
-    font-weight:100;
-    color:white;
 }
-.navbar-brand img{
-    width: 60px;
-    height: 60px;
-    }
-
 a:hover.nav-link{
     color:rgb(53, 140, 183);
     text-underline-position: below ;
 }
-
-
-.collapse{
-flex-grow: 0;
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color:white;
 }
-.collapse li{
-    padding-left:20px;
-}
-.con{
-    font-family: 'Dancing Script', cursive;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    height: 100vh;
+
+.Home {
     color: white;
     background-color: #288990;
-    width: 100%;
-    /* padding-top:20px ; */
+    height: 100vh;
+    padding: 6rem 0rem 6rem 0rem;
+   
 }
-.con h1{
+.Home h1{
     font-size: 4rem;
     font-weight: 600;
     padding-top: 20px;
 }
-.con h5{
+.Home h5{
     font-size: 1.5rem;
 }
-.con span{
+.Home span {
     color: orange;
 }
-.con1{
-    font-family: 'Dancing Script', cursive;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;   
-    height: 100vh;
-    /* margin-top: ; */
-
+.About p,.project1 p,.project2 p{
+    text-align: justify;
 }
-.con1 h2{
+.About{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    /* padding-bottom: 7rem; */
+    height: 100vh;
+    /* padding-top: 20vh; */
+}
+.About h2{
     font-size: 2.8rem;
     font-weight: 700;
     color:#288990 ;
 }
-.con1 p{
+.About p{
     padding-top: 10px;
     font-size: 18px;
     text-align: justify;
     line-height: 1.5;
     text-indent: 40px;
 }
-.con1 span{
+.About span{
     font-size: 26px;
    font-weight: 700;
     color: orange;
 }
-.con2{
-    font-family: 'Dancing Script', cursive;
-    background-color: #c0c6c9;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    height: 100vh;
+.first img{
+    border-radius: 50%;
+    background-color: #288990;
+    height: 300px;
+    width: 300px;
 }
-.con2 h2{
-    font-size: 2.8rem;
-    font-weight: 700;
-    padding-bottom: 100px;
-}
-
-
-.home{
-    color:black;
-}
-
-
-/* .about{
-    height: 100vh; */
-
-
 .education{
-    /* text-align: center; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: justify;
-    /* flex-direction: column; */
-  
+    background-color: #c0c6c9;
+    height: 100vh;
+    padding-top:10rem;
+    padding-bottom: 10rem;
 }
-/* .edu{
-    padding-bottom: 70px;
-} */
-.text1{
-    background-color:#288990;
-    /* padding-bottom: 10px; */
-    /* padding-top: 10px; */
-    color: white;
-    height:250px;
-    border-radius: 40px;
-    padding:20px;
+.education h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-bottom: 50px;
 }
-.text2{
+.edu{
     background-color: #288990;
+    /* text-align: justify; */
     color: white;
-    height:250px;
-    /* padding-top: 10px; */
+    /* height:auto; */
     border-radius: 40px;
-    padding:20px;
+    /* margin: 50px; */
+    padding:10px;
 }
-.text3{
-    background-color:#288990;
-    /* border: 1px solid rgb(63, 61, 61); */
-    color: white;
-    height:250px;
-    /* padding-top: 10px; */
-    border-radius: 40px;
-    padding:20px;
+.skill{
+    background-color: #f5f5f5;
+    height: 100vh;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
-.firstimg img{
-    border-radius: 50%;
+.skill img{
     background-color: white;
-    height: 300px;
-    width: 300px;
+    width: 376.16px;
 }
-.secimg img{
-    border-radius: 50%;
-    /* border:3px solid #288990; */
-    background-color: #288990;
-    height: 300px;
-    width: 300px;
-    
+.skill h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-bottom: 50px;
 }
-/* .project{
+.project1,.project2{
     height: 100vh;
-} */
-.pro{
-    font-family: 'Dancing Script', cursive;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-    height: 100vh;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
-.pro img{
-    width: 100%;
-    height: 50%;
-}
-.pro h4{
+.project1 h4,.project2 h4{
     font-size: 2.8rem;
     font-weight: 700;
     color: #288990;
     padding-bottom: 10px;
 }
-.pro p{
+.project1 p,.project2 p{
     font-size: 18px;
     text-align: justify;
     text-indent: 40px;
 }
-.pro span{
+.project1 span,.project2 span{
     color: orange;
     font-size: 24px;
     font-weight: 700;
 }
-.pro1{
-    font-family: 'Dancing Script', cursive;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-    height: 100vh;
-}
-
-.pro1 img{
-    width: 100%;
-    height: 50%;
-}
-.pro1 h4{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #288990;
-    padding-bottom: 10px;
-}
-.pro1 p{
-    font-size: 18px;
-    text-align: justify;
-    text-indent: 40px;
-}
-.pro1 span{
-    color: orange;
-    font-size: 24px;
-    font-weight: 700;
-}
-.con3{
-    font-family: 'Dancing Script', cursive;
-    display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
+.contact{
     background-color:  #c0c6c9;
-    height: 50vh;
-    padding-top: 50px;
+    padding: 40px;
 }
-.con3 a{
+.contact a{
     padding-right: 10px;
 }
-.work1 h4{
-   
-    font-size: 2.3rem;
-    font-weight: 500;
-    /* color: #288990; */
-    /* padding-bottom: 10px; */
+.contact h4{
+    font-size: 2.8rem;
+    font-weight: 700;
 }
-.work1 p{
+.contact p{
     font-size: 18px;
 }
 
+
+@media (min-width: 1281px) {
+    .edu{
+        height: 200px;
+    }
+  }
+
+  
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    .About{
+        height: auto;
+        padding-top: 2rem ;
+        padding-bottom:2rem;
+    }
+    .education{
+        height: auto;
+        padding-top: 2rem ;
+        padding-bottom:2rem;
+    }
+    .edu{
+        height: 250px;
+    }
+    .skill{
+        height: auto;
+        padding-top: 2rem ;
+        padding-bottom:2rem;
+    }
+    .project1,.project2{
+        height: auto;
+        padding-top: 2rem ;
+        padding-bottom:2rem;
+    }
+    .firstimg{
+        margin-top: 4rem;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .About{
+        height: auto;
+        padding-top: 2rem ;
+        padding-bottom:2rem;
+    }
+    .education{
+        height: auto;
+        padding-top: 2rem ;
+        padding-bottom:2rem;
+    }
+    .edu{
+        height: 320px;
+    }
+    .skill{
+        height: auto;
+        padding-top: 2rem ;
+        padding-bottom:2rem;
+    }
+    .project1,.project2{
+        height: auto;
+        padding-top: 2rem ;
+        padding-bottom:2rem;
+    }
+    .firstimg{
+        margin-top: 8rem;
+    }
+    
+  }
+    
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .About{
+        height: auto;
+        padding-top: 1rem ;
+        padding-bottom:1rem;
+    }
+    .education{
+        height: auto;
+        padding-top: 2rem ;
+        padding-bottom:2rem;
+    }
+    .edu{
+        height: auto;
+    }
+    .skill{
+        height: auto;
+        padding-top: 2rem ;
+        padding-bottom:2rem;
+        
+    }
+    .skillimg{
+        margin-bottom: 10px;
+    }
+    .project1,.project2{
+        height: auto;
+        padding-top: 2rem ;
+        padding-bottom:2rem;
+    }
+    .firstimg{
+        margin-top: 6rem;
+    }
+
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .About{
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .education{
+        height: auto;
+        padding-top: 2rem ;
+        padding-bottom:2rem;
+    }
+.edu{
+    height: auto;
+    margin-bottom: 10px;
+}
+.skill{
+    height: auto;
+    padding-top: 2rem ;
+    padding-bottom:2rem;
+}
+.skillimg{
+    margin-bottom: 10px;
+}
+.project1,.project2{
+    height: auto;
+    padding-top: 2rem ;
+    padding-bottom:2rem;
+}
+        
+  }
