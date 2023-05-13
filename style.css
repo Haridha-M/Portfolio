@@ -144,6 +144,7 @@ a:hover.nav-link{
 }
 
 @media (min-width: 1281px) {
+    
     .edu{
         height: 240px;
     }
@@ -153,25 +154,26 @@ a:hover.nav-link{
   @media (min-width: 1024px) and (max-width: 1280px) {
     .About{
         height: auto;
-        padding-top: 2rem ;
+        padding-top: 5rem ;
         padding-bottom:2rem;
     }
     .education{
         height: auto;
-        padding-top: 2rem ;
+        padding-top: 5rem ;
         padding-bottom:2rem;
     }
     .edu{
+        /* padding-top: 2rem; */
         height: 280px;
     }
     .skill{
         height: auto;
-        padding-top: 2rem ;
+        padding-top: 5rem ;
         padding-bottom:2rem;
     }
     .project1,.project2{
         height: auto;
-        padding-top: 2rem ;
+        padding-top: 5rem ;
         padding-bottom:2rem;
     }
     .firstimg{
@@ -182,25 +184,26 @@ a:hover.nav-link{
   @media (min-width: 768px) and (max-width: 1023px) {
     .About{
         height: auto;
-        padding-top: 2rem ;
+        padding-top: 5rem ;
         padding-bottom:2rem;
     }
     .education{
         height: auto;
-        padding-top: 2rem ;
+        padding-top: 5rem ;
         padding-bottom:2rem;
     }
     .edu{
+        /* padding-top: 5rem; */
         height: 387px;
     }
     .skill{
         height: auto;
-        padding-top: 2rem ;
+        padding-top: 5rem ;
         padding-bottom:2rem;
     }
     .project1,.project2{
         height: auto;
-        padding-top: 2rem ;
+        padding-top: 5rem ;
         padding-bottom:2rem;
     }
     .firstimg{
@@ -216,20 +219,21 @@ a:hover.nav-link{
     }
     .About{
         height: auto;
-        padding-top: 1rem ;
+        padding-top: 5rem ;
         padding-bottom:1rem;
     }
     .education{
         height: auto;
-        padding-top: 2rem ;
+        padding-top: 5rem ;
         padding-bottom:2rem;
     }
     .edu{
+        /* padding-top: 5rem; */
         height: auto;
     }
     .skill{
         height: auto;
-        padding-top: 2rem ;
+        padding-top: 5rem ;
         padding-bottom:2rem;
         
     }
@@ -238,7 +242,7 @@ a:hover.nav-link{
     }
     .project1,.project2{
         height: auto;
-        padding-top: 2rem ;
+        padding-top: 5rem ;
         padding-bottom:2rem;
     }
     .firstimg{
@@ -253,21 +257,22 @@ a:hover.nav-link{
     }
     .About{
         height: auto;
-        padding-top: 1rem;
+        padding-top: 5rem;
         padding-bottom: 1rem;
     }
     .education{
         height: auto;
-        padding-top: 2rem ;
+        padding-top: 5rem ;
         padding-bottom:2rem;
     }
 .edu{
     height: auto;
+    /* padding-top: 5rem; */
     margin-bottom: 10px;
 }
 .skill{
     height: auto;
-    padding-top: 2rem ;
+    padding-top: 5rem ;
     padding-bottom:2rem;
 }
 .skillimg{
@@ -275,9 +280,12 @@ a:hover.nav-link{
 }
 .project1,.project2{
     height: auto;
-    padding-top: 2rem ;
+    padding-top: 5rem ;
     padding-bottom:2rem;
-}    
+}  
+.contact{
+    padding-top: 5rem;
+}  
 .img{
     width: 50%;
 }
